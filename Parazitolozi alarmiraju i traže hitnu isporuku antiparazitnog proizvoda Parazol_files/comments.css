@@ -1,0 +1,91 @@
+.commentsList {
+  list-style: none;
+  padding-left: 0;
+}
+.vk-comment-date {
+    
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+.vk-comment-text{
+    line-height: 1.2;
+}
+.vk-comment-name {
+    color: rgb(43, 88, 122);
+    font-weight: bold;
+    font-size: 13px;
+}
+.vk-header {
+    background: rgb(218, 226, 232) none repeat scroll 0% 0%;
+    padding: 4px 4px 4px 6px;
+    margin-bottom: 10px;
+}
+.vk-comment-load {
+
+    position: relative;
+    border-bottom: 1px solid rgb(218, 225, 232);
+    padding-bottom: 15px;
+}
+.vk-header-text {
+    padding: 2px 3px 1px;
+    line-height: 100%;
+    color: rgb(69, 104, 142);
+    font-weight: bold;
+}
+.spoiler {
+    width: 50%;
+    margin-top: 10px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-left: 12px;
+    border-radius: 50%;
+}
+.commentsList:before,
+.commentsList:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.commentsList .commentItem {
+  box-sizing: border-box;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+.commentsList .commentItem .commentBody {
+  padding-left: 70px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.commentsList .commentItem .commentBody .username {
+  color: #3b5998;
+  font-weight: 600;
+}
+.commentsList .commentItem .commentBody .commentAction a {
+  color: #3b5998;
+  text-decoration: none;
+}
+.commentsList .commentItem .commentBody .commentAction .circle {
+  font-size: 7px;
+  position: relative;
+  top: -2px;
+  padding: 0 5px;
+}
+.commentsList .commentItem .commentBody .commentAction .likeImage {
+  position: relative;
+  top: 8px;
+  width: 25px;
+  height: 25px;
+}
+.commentsList .commentItem .commentBody .commentAction .likeCount {
+  color: #ccc;
+}
+.commentsList .commentItem .commentBody .commentAction .time {
+  color: #ccc;
+}
+ {
+  display: block;
+}
